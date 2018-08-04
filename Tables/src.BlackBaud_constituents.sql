@@ -1,0 +1,32 @@
+CREATE TABLE [src].[BlackBaud_constituents]
+(
+[SK] [bigint] NULL,
+[ETL__multi_query_value_for_audit] [nvarchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[constituent_id] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[type] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[lookup-id] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[inactive] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[fullname] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[gender] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[deceased] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[date-added] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[date-modified] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[gives-anonymously] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[lastname] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[firstname] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[middlename] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[preferred-name] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[title] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[marital-status] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[age] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[suffix] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[address_id] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[phone_id] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[email_id] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[birthdate_year] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[birthdate_month] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[birthdate_day] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[spouse_id] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[online-presence_id] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL
+)
+GO

@@ -1,0 +1,41 @@
+CREATE TABLE [ods].[Snapshot_Schoology_grade_items]
+(
+[Schoology_grade_itemsSK] [int] NOT NULL IDENTITY(1, 1),
+[section_id] [nvarchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[assignment_id] [nvarchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[title] [nvarchar] (250) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[description] [nvarchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[due] [nvarchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[grading_scale] [nvarchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[grading_period] [nvarchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[grading_category] [nvarchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[max_points] [float] NULL,
+[factor] [float] NULL,
+[is_final] [bit] NULL,
+[show_comments] [bit] NULL,
+[grade_stats] [bit] NULL,
+[allow_dropbox] [bit] NULL,
+[allow_discussion] [bit] NULL,
+[published] [bit] NULL,
+[type] [nvarchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[grade_item_id] [nvarchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[available] [bit] NULL,
+[completed] [bit] NULL,
+[dropbox_locked] [bit] NULL,
+[grading_scale_type] [int] NULL,
+[show_rubric] [nvarchar] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[display_weight] [int] NULL,
+[folder_id] [nvarchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[num_assignees] [int] NULL,
+[last_updated] [nvarchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[completion_status] [nvarchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[topic_id] [nvarchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[ETL_CreatedOn] [datetime] NULL,
+[ETL_CreatedBy] [nvarchar] (200) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[ETL_UpdatedOn] [datetime] NULL,
+[ETL_UpdatedBy] [nvarchar] (200) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[RecordEndDate] [datetime] NULL
+)
+GO
+ALTER TABLE [ods].[Snapshot_Schoology_grade_items] ADD CONSTRAINT [PK__Snapshot__579C1DFBBB3D5CC7] PRIMARY KEY CLUSTERED  ([Schoology_grade_itemsSK])
+GO

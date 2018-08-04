@@ -1,0 +1,3 @@
+CREATE SCHEMA [src]
+AUTHORIZATION [SSB_Developers]
+GO

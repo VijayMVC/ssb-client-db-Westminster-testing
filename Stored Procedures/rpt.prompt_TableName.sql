@@ -1,0 +1,12 @@
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_NULLS ON
+GO
+
+CREATE PROCEDURE [rpt].[prompt_TableName]
+AS
+
+
+SELECT DISTINCT TableName
+FROM dbo.BizRule_Subscription
+GO

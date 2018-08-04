@@ -1,0 +1,32 @@
+CREATE TABLE [dbo].[Duplicates_20171025]
+(
+[SSB_CRMSYSTEM_CONTACT_ID] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[SourceSystem] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[SSID] [float] NULL,
+[Potential Grouping from middle name] [float] NULL,
+[Concatenate for Unique ID] [float] NULL,
+[Record] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[Questions] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[Prefix] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[FirstName] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[PreferredName] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[MiddleName] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[LastName] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[Suffix] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[FullName] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[ClassYear] [float] NULL,
+[ConCodes] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[Birthday] [datetime] NULL,
+[AddressPrimaryStreet] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[AddressPrimarySuite] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[AddressPrimaryCity] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[AddressPrimaryState] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[AddressPrimaryZip] [float] NULL,
+[AddressPrimaryCounty] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[PhonePrimary] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[EmailPrimary] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[Eric_Ignore] [bit] NOT NULL CONSTRAINT [DF__Duplicate__Eric___1A320D00] DEFAULT ((0)),
+[new_con_ID] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[dimcustomerid] [int] NULL
+)
+GO

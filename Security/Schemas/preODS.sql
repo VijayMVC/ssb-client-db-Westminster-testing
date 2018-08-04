@@ -1,0 +1,3 @@
+CREATE SCHEMA [preODS]
+AUTHORIZATION [SSB_Developers]
+GO

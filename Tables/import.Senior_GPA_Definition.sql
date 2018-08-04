@@ -1,0 +1,33 @@
+CREATE TABLE [import].[Senior_GPA_Definition]
+(
+[SCHOOL_ID] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[ACADEMIC_YR] [float] NULL,
+[GPA_NO] [float] NULL,
+[GPA_NAME] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[GPA_ABBREV] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[GRADE_ENTRY_LIST] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[GRADE_LEVEL_FROM] [float] NULL,
+[GRADE_LEVEL_TO] [float] NULL,
+[CALCULATION_TYPE] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[REFERS_GPA_LIST] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[GRADE_VALUE_TO_USE] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[MULTIPLY_BY] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[MULTIPLY_BY_HIST] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[DIVIDE_BY] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[NO_GRADE_HANDLER] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[PRECISION] [float] NULL,
+[NO_ADMIN_QPA_VALUE] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[NO_COURSE_CREDITS] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[NO_COURSE_MULTIPLY] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[ADD_TO_RESULT] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[COURSE_GPA_NO] [float] NULL,
+[SPECIAL_GRD_HANDLR] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[SCATTER_ALLOW] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[SCATTER_MIN] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[SCATTER_MAX] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[SCATTER_AXIS] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[SCATTER_TICKS] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[WEB_NAME] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[WEB_ACTIVE] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL
+)
+GO

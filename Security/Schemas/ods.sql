@@ -1,0 +1,3 @@
+CREATE SCHEMA [ods]
+AUTHORIZATION [SSB_Developers]
+GO

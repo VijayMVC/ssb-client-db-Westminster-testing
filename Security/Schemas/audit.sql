@@ -1,0 +1,3 @@
+CREATE SCHEMA [audit]
+AUTHORIZATION [SSB_Developers]
+GO

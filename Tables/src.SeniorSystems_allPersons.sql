@@ -1,0 +1,32 @@
+CREATE TABLE [src].[SeniorSystems_allPersons]
+(
+[SK] [bigint] NULL,
+[ETL__multi_query_value_for_audit] [nvarchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[L2_AllData_EntityNo] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[L3_AllData_Spouse_EntityNo] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[L3_AllData_Spouse_FamilyID] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[L3_AllData_Spouse_HouseholdID] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[L3_AllData_Spouse_ParentType] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[L3_AllData_Spouse_ParentNameGroup] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[L3_AllData_Spouse_StudentRelationships] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[L3_AllData_Spouse_AllFamilyIDs] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[L3_AllData_Spouse_StudentsAcademicAccess] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[L3_AllData_Spouse_StudentsBillingAccess] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[L4_AllData_StudentRelationships_StudentId] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[L4_AllData_StudentRelationships_StudentEntityNo] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[L4_AllData_StudentRelationships_FamilyID] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[L4_AllData_StudentRelationships_Relationship] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[L4_AllData_Spouse_StudentsAcademicAccess_] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[L4_AllData_Spouse_AllFamilyIDs_] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[L4_AllData_Spouse_StudentsBillingAccess_] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[L5_AllData_Spouse_StudentRelationships_StudentId] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[L5_AllData_Spouse_StudentRelationships_StudentEntityNo] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[L5_AllData_Spouse_StudentRelationships_FamilyID] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[L5_AllData_Spouse_StudentRelationships_Relationship] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[L6_AllData_Spouse_FacultyInfo_Education_SchoolName] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[L6_AllData_Spouse_FacultyInfo_Education_Major] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[L6_AllData_Spouse_FacultyInfo_Education_Degree] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[L6_AllData_Spouse_FacultyInfo_Education_ClassYear] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[L6_AllData_Spouse_FacultyInfo_Education_GraduationType] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL
+)
+GO

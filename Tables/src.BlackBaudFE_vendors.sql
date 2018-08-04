@@ -1,0 +1,33 @@
+CREATE TABLE [src].[BlackBaudFE_vendors]
+(
+[SK] [bigint] NULL,
+[ETL__multi_query_value_for_audit] [nvarchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[vendor_id] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[vendor-name] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[balance-due] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[ui-defined-id] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[customer-number] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[vendor-status] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[issue-1099s] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[payment-method] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[address-id] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[description] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[country] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[city] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[county] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[state] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[postal] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[address-line] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[is-primary] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[is-invoices] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[is-pos] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[is-1099] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[title] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[first-name] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[middle-name] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[last-name] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[suffix] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[position] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[address-contact-methods] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL
+)
+GO
